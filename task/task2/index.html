@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.js">
+</head>
+<body >
+    <label for="country">Select country</label>
+    <select name="country" id="country" onchange="change(this)">
+        <option selected="selected">select c</option>
+        <option value="india">india</option>
+        <option value="us">us</option>
+        <option value="aus">aus</option>   
+    </select>
+
+    <select name="state" id="state" onchange="change(this)">
+        <option value="" selected="selected" class="statename">select state</option>
+        <option value="guj" class="india statename">gujarat</option>
+        <option value="guj" class="india statename">ind2</option>
+        <option value="guj" class="india statename">ind3</option>
+        <option value="guj" class="india statename">ind4</option>
+        <option value="aus-s1" class="aus statename">aus-s1</option>
+        <option value="aus-s2" class="aus statename">aus-s2</option2>
+        <option value="aus-s2" class="aus statename">aus-s3</option2>
+        <option value="aus-s2" class="aus statename">aus-s4</option2>
+        <option value="us-s2" class="us statename">us-s1</option>
+        <option value="us-s1" class="us statename">us-s2</option>
+        <option value="us-s1" class="us statename">us-s3</option>
+        <option value="us-s1" class="us statename">us-s4</option>
+    </select>
+    <select name="city" id="city">
+        <option value="" selected="selected" class="cityname">select city</option>
+        <option value="surat" class="india guj cityname">surat</option>
+        <option value="baroda" class="india guj cityname">baroda</option>
+        <option value="aus-s1" class="aus aus-s1 cityname">aus-s1-c1</option>
+        <option value="aus-s2" class="aus aus-s2 cityname">aus-s2-c2</option2>
+        <option value="us-s2" class="us us-s1 cityname">us-s1-c1</option>
+        <option value="us-s1" class="us us-s2 cityname">us-s2-c2</option>
+  
+    </select>
+    <script src="index.js"></script>
+</body>
+</html>
