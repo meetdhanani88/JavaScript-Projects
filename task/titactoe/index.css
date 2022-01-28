@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      
+html,body{
+   background-color: #000;
+   color: #eee;
+   font-family: 'Press Start 2P', cursive;
+                                                
+}
+header{
+    text-align: center;
+}
+#heading{
+    margin-top: 50px;
+    height: 2.5rem;
+    font-size: 2.5rem;
+}
+#instruction{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 0.85rem;
+    padding: 3px;
+}
+#middel{
+    text-align: center;
+    height: 100%;
+   
+}
+#play-box{
+    width: 19%;
+    height: 40%;
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid black; */
+    margin: auto;
+    position: relative;
+    font-size: 0px;
+}
+input{
+    
+    display: inline-block;
+    height: 77px;
+    width: 72px;
+    outline: none;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    /* height:29% ;
+    width:29% ; */
+    /* position: absolute; */
+}
+
+#winner{
+    font-size: 1.5rem;
+    line-height:  1.5;
+}
+
+/* button{
+    font-family: inherit;
+    margin-top: 10px;
+    height: 40px;
+    width: 90px;
+    font-size: 1rem;
+} */
+
+button {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: inherit;
+    color: #ffffff;
+    font-size: 19px;
+    background: rgba(11, 14, 165, 0.431);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background: #699bc7;
+    background-image: -webkit-linear-gradient(top, #699bc7, #7499b0);
+    background-image: -moz-linear-gradient(top, #699bc7, #7499b0);
+    background-image: -ms-linear-gradient(top, #699bc7, #7499b0);
+    background-image: -o-linear-gradient(top, #699bc7, #7499b0);
+    background-image: linear-gradient(to bottom, #699bc7, #7499b0);
+    text-decoration: none;
+  }
